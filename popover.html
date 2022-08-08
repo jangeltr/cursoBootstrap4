@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./jquery/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src=""></script>
+    <title>Document</title>
+</head>
+<body>
+    <article class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="./images/persona.jpg" alt="" height="150px"  
+                                role="button" class="btn btn-secondary popover-test" title="Jefe de RH" 
+                                data-toggle="popover"
+                                data-content="Juan Perez juanperez@email.com"> 
+            </div>
+        </div>
+    </article>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+</html>
